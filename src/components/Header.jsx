@@ -7,7 +7,7 @@ const Header = () => {
             <Link to="/" className="item">
                 Streamer
              </Link>
-            <div calssName="right menu">
+            <div className="right menu">
                 <Link to="/" className="item">
                     All Streams
                 </Link>
