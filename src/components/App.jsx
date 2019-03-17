@@ -19,7 +19,16 @@ const PageTwo = () => {
 }
 
 const App = () => {
-    return <div>App</div>
+    return (
+        <div>
+            <BrowserRouter>
+                <div>
+                    <Route path='/' exact component={PageOne}/>
+                    <Route path='/pagetwo' compnet={PageTwo}/>
+                </div>
+            </BrowserRouter>
+        </div>
+    ) 
 }
 
 export default App
